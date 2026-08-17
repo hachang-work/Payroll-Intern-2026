@@ -134,7 +134,7 @@ export function CenterTable({
           data={centerRows as any}
           isEditable={false}
           showRowNumber={true}
-          selectable={true}
+          selectable={false}
           onDeleteRows={onDeleteRows}
           striped={false}
           stickyHeader={true}
