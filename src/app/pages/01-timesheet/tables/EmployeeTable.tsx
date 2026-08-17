@@ -75,7 +75,7 @@ export function EmployeeTable({
           data={data as any}
           isEditable={true}
           showRowNumber={true}
-          selectable={true}
+          selectable={false}
           onDeleteRows={onDeleteRows}
           striped={false}
           stickyHeader={true}
