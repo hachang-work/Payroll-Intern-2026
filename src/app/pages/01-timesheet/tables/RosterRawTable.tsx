@@ -95,7 +95,7 @@ export function RosterRawTable({
           data={sanitizedData as any}
           isEditable={true}
           showRowNumber={true}
-          selectable={true}
+          selectable={false}
           onDeleteRows={onDeleteRows}
           striped={false}
           stickyHeader={true}
